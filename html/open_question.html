@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	
+<link type="text/css" rel="stylesheet" href="../css/bootstrap.min.css" />
+<link type="text/css" rel="stylesheet" href="../css/style.css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script type="text/javascript" src="../js/side_nave.js"></script>
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+<body>
+    <div class="fill" style="width: 100%">
+      <div style="width: 10%;float: left; border-right: 2px solid black;" class="fill">
+            <span class="fa-stack fa-lg" id="menu-btn">
+              <i class="fa fa-circle-thin fa-stack-2x"></i>
+              <i class="fa fa-bars fa-stack-1x"></i>
+            </span>
+          <div style="margin-top:400px"><p style="transform: rotate(-90deg); font-size:50px; color:#000"> Easy<span style="position: relative; padding: 18px">Math</span></p></div> 
+      </div>
+      <div style="width: 90%; float: right" class="fill">
+          <div class="container-fluid fill" id="main_bar" style="padding:0px;">
+            <header>
+              <button class="logout-btn pull-right">LOGOUT</button>
+            </header>
+            <div class="fill" id="main_content">
+                <button id="new_quest_btn" class="btn btn-primary center-box" data-url="new_quest">SUBMIT</button>
+                <div>
+                    <button class="btn btn-success open-q">OPEN QUESTIONS</button>
+                </div>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="side-bar hidden"></div>
+      <div class="side-bar-menu">
+        <button class="pull-right" id="close-btn">close</button>
+        <div class="list-group menu" style="margin-top:26px;">
+          <a href="#" class="list-group-item">PROFILE</a>
+          <a href="#" class="list-group-item">OPEN QUSTION</a>
+          <a href="#" class="list-group-item">HISTORY</a>
+          <a href="#" class="list-group-item">PROFILE</a>
+        </div>
+      </div>
+</body>
+</html>
